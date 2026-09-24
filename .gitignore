@@ -1,0 +1,21 @@
+# Environment files (contain secrets / local URLs - never commit these)
+.env
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+*.pyc
+
+# The SQLite database file (regenerate locally with: python seed.py)
+backend/campus.db
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Editor
+.vscode/
